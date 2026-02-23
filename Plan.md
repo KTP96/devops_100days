@@ -1,4 +1,4 @@
-# 1) Linux (must-have)
+# 1) Linux
 
 ### 1.1 File system + shell basics
 
@@ -36,10 +36,9 @@
 
 ---
 
-# 2) Networking Fundamentals (must-have)
+# 2) Networking Fundamentals 
 
-### 2.1 IP & subnetting (very important)
-
+### 2.1 IP & subnetting
 * IPv4, CIDR notation
 * Subnet masks concept
 * Private vs public IP ranges
@@ -64,7 +63,7 @@
 
 ---
 
-# 3) Git + GitHub (must-have)
+# 3) Git + GitHub 
 
 ### 3.1 Git fundamentals
 
@@ -87,7 +86,7 @@
 
 ---
 
-# 4) Programming / Scripting (minimum required)
+# 4) Programming / Scripting
 
 (You don’t need to be a software engineer, but you must automate.)
 
@@ -100,7 +99,7 @@
 * parsing command output
 * writing safe scripts (set -e, set -u basics)
 
-### 4.2 Python basics (recommended)
+### 4.2 Python basics 
 
 * venv, pip, requirements.txt
 * reading env vars
@@ -112,7 +111,7 @@
 
 ---
 
-# 5) Cloud Fundamentals (AWS-first)
+# 5) Cloud Fundamentals 
 
 ### 5.1 Cloud concepts
 
@@ -131,9 +130,9 @@
 
 ---
 
-# 6) AWS Core Services (must-have)
+# 6) AWS Core Services 
 
-## 6.1 IAM (security backbone)
+## 6.1 IAM
 
 * Users vs groups vs roles
 * Policies: JSON structure (Effect/Action/Resource)
@@ -145,7 +144,7 @@
 * Instance profiles (EC2 role)
 * Permission boundaries (concept)
 
-## 6.2 VPC Networking (very important)
+## 6.2 VPC Networking
 
 * VPC, CIDR, subnets
 * Public vs private subnets
@@ -195,12 +194,12 @@
 * Agent concept (CloudWatch agent)
 * SNS notifications (basic)
 
-## 6.7 SNS / SQS (messaging basics) (good-to-have)
+## 6.7 SNS / SQS
 
 * SNS topics + subscriptions (alerts)
 * SQS queue basics (buffering) (concept-level is okay)
 
-## 6.8 Systems Manager (SSM) (very valuable)
+## 6.8 Systems Manager (SSM)
 
 * Session Manager (SSH-less access concept)
 * Parameter Store (secrets/config)
@@ -209,7 +208,7 @@
 
 ---
 
-# 7) Infrastructure as Code (Terraform) (must-have)
+# 7) Infrastructure as Code (Terraform) 
 
 ### 7.1 Terraform fundamentals
 
@@ -240,7 +239,7 @@
 
 ---
 
-# 8) Containers (Docker) (must-have)
+# 8) Containers (Docker) 
 
 ### 8.1 Docker fundamentals
 
@@ -266,7 +265,7 @@
 
 ---
 
-# 9) CI/CD (must-have)
+# 9) CI/CD 
 
 ### 9.1 CI basics
 
@@ -281,7 +280,7 @@
 * environment configs
 * approvals/manual gates (concept)
 
-### 9.3 GitHub Actions (recommended)
+### 9.3 GitHub Actions 
 
 * workflows, jobs, steps
 * triggers (push, PR)
@@ -294,16 +293,16 @@
 
 ---
 
-# 10) Deployment on AWS (entry-level must-have)
+# 10) Deployment on AWS 
 
-### 10.1 EC2-based deployments (most common for beginners)
+### 10.1 EC2-based deployments 
 
 * Nginx reverse proxy concept
 * systemd service for app (or docker run)
 * log location and rotation concept
 * health check endpoints
 
-### 10.2 Load balancing + TLS (good-to-have)
+### 10.2 Load balancing + TLS 
 
 * ALB target groups
 * HTTPS with ACM (concept)
@@ -315,7 +314,7 @@
 
 ---
 
-# 11) Observability + Operations (must-have)
+# 11) Observability + Operations 
 
 ### 11.1 Monitoring
 
@@ -338,7 +337,7 @@
 
 ---
 
-# 12) Security basics (must-have)
+# 12) Security basics 
 
 * IAM least privilege
 * MFA everywhere
@@ -351,7 +350,7 @@
 
 ---
 
-# 13) Cost basics (must-have)
+# 13) Cost basics 
 
 * understand where costs come from (NAT gateways, EC2, EBS, RDS, data transfer)
 * set budgets + alarms
@@ -395,7 +394,7 @@ You should build at least **two**:
 
 ---
 
-# 15) Interview question areas to prepare (must-have)
+# 15) Interview question areas to prepare 
 
 * Explain your project architecture clearly
 * Linux troubleshooting scenarios
