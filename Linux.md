@@ -91,6 +91,13 @@ Kernel space runs privileged code, user space runs applications, and system call
   * Execute `x` on a directory provides ability to enter the directory. (`cd`)
   * Read `r` on a directory provides ability to list files. (`ls`)
   * To access a file inside a directory, you usually need execute `x` on every directory in the path.
+  * Default max permissions
+  * **Files:**
+        * Maximum is usually `666` (`rw-rw-rw-`)
+        * Files don’t get execute bit by default.
+  * **Directories:**
+      * Maximum is `777` (`rwxrwxrwx-`)
+      * Directories need execute to “enter”.
 
 ### Users
 
@@ -426,6 +433,16 @@ Program is a file on disk.
     * `group` → group
     * `1234` →	size (in bytes)
     * `Jan 10` →	mtime
+
+* `umask`
+  * `umask` sets the **default permission mask** for **new files and directories** you create.
+  * `umask -S` → Symbolic format like: `u=rwx,g=rx,o=rx` (this describes what remains allowed)
+
+    | umask | new file | new dir | meaning                                 |
+    | ----: | -------: | ------: | --------------------------------------- |
+    |   022 |      644 |     755 | owner full, others read/execute on dirs |
+    |   002 |      664 |     775 | group-writable (team-friendly)          |
+    |   077 |      600 |     700 | private                                 |
 
 * `ln file1_name file2_name` → Creates a hard link file2_name to file1_name.
 * 
