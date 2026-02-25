@@ -574,7 +574,16 @@ Program is a file on disk.
   * `ln target_file symlink_name`
  
 * `awk`
-  
+    * `$0` → entire current line
+    * `$1, $2, ...` → field 1, 2, …
+    * `NF` → number of fields in the current line
+    * `NR` → current line number (overall)
+    * `FS` → input field separator (default: whitespace)
+    * `OFS` → output field separator (default: space)
+    * `-F','` sets `FS` to comma.
+    * `~` means “matches regex”
+    * `!~` means “does not match regex”
+
 * `sed`
 
 * `uniq` → Prints only the unique values in the file.
@@ -585,6 +594,10 @@ Program is a file on disk.
     * `-r` → Sorts the values in reverse order.
 
 * `wc` → Shows the word count in the file.
+    * `-l`→ only lines
+    * `-w` → only words
+    * `-c` → only bytes
+    * `-m` → characters (can differ from bytes with non-ASCII text) 
   
 #### File Permissions
 
