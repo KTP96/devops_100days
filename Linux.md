@@ -435,8 +435,9 @@ Program is a file on disk.
     * `Jan 10` →	mtime
 
 * `umask`
-  * `umask` sets the **default permission mask** for **new files and directories** you create.
+  * Sets the default permission mask for new files and directories you create.
   * `umask -S` → Symbolic format like: `u=rwx,g=rx,o=rx` (this describes what remains allowed)
+  * It is not for the current folder. It’s a process (shell) setting.
 
     | umask | new file | new dir | meaning                                 |
     | ----: | -------: | ------: | --------------------------------------- |
