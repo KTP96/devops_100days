@@ -9,10 +9,10 @@
   * projects or ../projects
 
 * **Special path shortcuts**
-  * . → current directory
-  * .. → parent directory
-  * ~ → your home directory (like /home/youruser)
-  * - → previous directory (used with cd -)
+  * `.` → current directory
+  * `..` → parent directory
+  * `~` → your home directory (like /home/youruser)
+  * `-` → previous directory (used with cd -)
 
 * **Basic Commands**
   * `pwd`
@@ -61,7 +61,7 @@
 * **Commands**
     * `chmod` → Changes the permissions.
     * `chown` → Changes the owner.
-    * `umask`
+    * `umask` →
  
 ## Users, Groups, Sudo
 
