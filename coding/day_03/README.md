@@ -12,15 +12,15 @@
   * formatting alerts
   * retrying commands
 - Ex:
-      ```python
-      def greet():
-          print("Hello")
-      ```    
-      To run it:
+  ```python
+  def greet():
+      print("Hello")
+  ```    
+  To run it:
       
-      ```python
-      greet()
-      ```
+  ```python
+  greet()
+  ```
 ---
 
 ## Function with parameters
