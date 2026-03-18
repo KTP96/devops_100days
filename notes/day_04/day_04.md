@@ -82,3 +82,29 @@ Example:
 - allow HTTP for website access
 
 ---
+
+### AWS Scripts Can Be Written Using
+
+AWS automation can be done using the following tools:
+
+- **AWS CLI**  
+  Command-line tool to create and manage AWS resources.
+
+- **AWS API using Boto3**  
+  Python SDK for AWS used to automate AWS services programmatically.
+
+- **AWS CloudFormation (CFT)**  
+  Infrastructure as Code tool from AWS used to define resources in YAML or JSON.
+
+- **Terraform**  
+  Infrastructure as Code tool used to create and manage AWS resources in a declarative way.
+
+### Simple Understanding
+
+- **AWS CLI** → run commands manually or in shell scripts
+- **Boto3** → write Python scripts for AWS automation
+- **CloudFormation** → define AWS infrastructure using AWS-native templates
+- **Terraform** → define infrastructure using reusable IaC files
+
+
+
