@@ -10,7 +10,7 @@
 * monitoring outputs
 * generated status reports
 
-# Why files matter in DevOps
+## Why files matter in DevOps
 
 * read a server inventory file
 * scan logs for errors
@@ -21,7 +21,7 @@
   
 ---
 
-# Opening a file
+## Opening a file
 
 ```
 with open("servers.txt", "r") as file:
@@ -35,7 +35,7 @@ with open("servers.txt", "r") as file:
 
 ---
 
-# Reading line by line
+## Reading line by line
 
 ```
 with open("servers.txt", "r") as file:
@@ -53,7 +53,7 @@ with open("servers.txt", "r") as file:
 
 ---
 
-# Parsing file data
+## Parsing file data
 
 `servers.txt`
 
@@ -80,7 +80,7 @@ with open("servers.txt", "r") as file:
 ```
 ---
 
-# Writing to a file
+## Writing to a file
 
 ```
 with open("report.txt", "w") as file:
