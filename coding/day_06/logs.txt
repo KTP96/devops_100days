@@ -1,0 +1,4 @@
+INFO: nginx started
+WARNING: disk usage high
+ERROR: database connection failed
+INFO: backup completed

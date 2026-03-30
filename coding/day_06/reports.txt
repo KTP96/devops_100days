@@ -1,0 +1,3 @@
+Server Health Report 
+web-01 --> NORMAL 
+web-02 --> WARNING 
