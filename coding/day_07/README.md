@@ -14,7 +14,7 @@ In DevOps/SRE/platform work, scripts often fail because of things like:
 
 ---
 
-## 1. What is `try/except`?
+## What is `try/except`?
 
 It lets Python try something risky, and if it fails, handle the error gracefully.
 
@@ -31,7 +31,7 @@ Without `try/except`, the script crashes.
 
 ---
 
-## 2. Why this matters in DevOps
+## Why this matters in DevOps
 
 Imagine parsing a file like:
 
@@ -53,7 +53,7 @@ With `try/except`, you can skip the bad line and continue.
 
 ---
 
-## 3. Basic syntax
+## Basic syntax
 
 ```python
 try:
@@ -64,7 +64,7 @@ except:
 
 ---
 
-## 4. Better style: catch specific errors
+## Better style: catch specific errors
 
 Example:
 
@@ -86,7 +86,7 @@ Common ones you’ll use:
 
 ---
 
-## 5. Example with file parsing
+## Example with file parsing
 
 ```python
 line = "web-02,abc,77"
@@ -102,7 +102,7 @@ except ValueError:
 
 ---
 
-## 6. Example with missing file
+## Example with missing file
 
 ```python
 try:
